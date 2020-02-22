@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <link
+      rel="stylesheet"
+      href="style.0078cd0d160afef03016.css?e9fce76c5e527a8bc3aa"
+    />
+  </head>
+  <body>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="./styles/style.css">
+      <link rel="shortcut icon" href="./favicon.ico" type="image/png">
+      <title>Пользователи</title>
+  </head>
+  <body>
+      <header class="header">
+        <h1 class="header__title">Пользователи</h1>
+      </header>
+      <main class="container">
+        <div class="block">
+          <h3>Добавленные пользователи</h3>
+          <div class="users-container">
+          </div>
+      </div>
+          <div class="block">
+              <form name="formAdd">
+              <h3>Добавить пользователя</h3>
+              <div class="input">
+                <div class="form__field">
+                  <input class="input__text input__text_name" type="text" name="name" placeholder="Имя" pattern = "^([А-ЯЁ][а-яё]+-[А-ЯЁ][а-яё]+)|([А-ЯЁ][а-яё]+)$" minlength="2" maxlength="20" required>
+                  <span class="input__error">Не верный формат</span>
+                </div>
+                <div class="form__field">
+                  <input class="input__text input__text_phone" type="text" name="phone" placeholder="Телефон" pattern="^((\+7)|8)\s?((\(\d{3}\))|(\d{3}))\s?-?\d{3}-?\d{2}-?\d{2}$" minlength="11" maxlength="17" required>
+                  <span class="input__error">Не верный формат</span>
+                </div>
+                  <button type="submit" class="input__btn input__btn_add">
+                  Добавить
+                  </button>
+              </div>
+              </form>
+          </div>
+      </main>
+
+    <script src="main.41d3872ae73266386e80.js?e9fce76c5e527a8bc3aa"></script>
+  </body>
+</html>
